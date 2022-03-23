@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    padding: 20px 50px;
+}
+
+.header-top {
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-top-right ul li {
+    list-style: none;
+}
+.header-top-right ul li a{  
+    text-decoration: none;
+    color: #787878;
+}
+.header-list {
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list li {
+    padding-left: 15px;
+}
+header {
+    background-color: #f5f5f5;
+    color: #787878;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.header-middle {
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-search {
+    display : flex;
+    align-items: center;
+}
+.header-icon {
+    display: flex;
+    margin-left: -20px;
+}
+.user-icon {
+    width: calc(25%-5px);
+    margin-left: 20px;
+}
+.user-icon {
+    font-size: 20px;
+}
+.header-search-button input {
+    padding: 16px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #989898;
+    padding-right: 45px;
+}
+.header-search-categories select {
+    padding: 15px 10px;
+    border: 1px solid #989898;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.header-search-button {
+    position: relative;
+}
+.search-btn {
+    padding: 15px 15px;
+    background-color: #FE2424;
+    border-radius: 12px;
+    border: none;
+    color: #ffff;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+.desktop-menu {
+    padding-block: 20px;
+    border-top: 1px solid #989898;
+}
+.sale-info, .menu__item, .desktop-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__item .menu__list {
+    margin-right: 4.5rem;
+}
+.vetical-menu {
+    background-color: #FE2424;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+}
+.menu__item ul li a {
+    font-size: 16px;
+    color: #111;
+}
+.menu__item a:hover {
+    color: #FE2424;
+}
+.sale-img {
+    margin-right: 15px;
+}
+.sale-off .flash-sale {
+    font-size: 18px;
+    color: #ffc220;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 2px 2px 1px #111;
+    -webkit-text-stroke: 1px #111;
+}
