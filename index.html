@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <title></title>
 </head>
 <body>
     <header>
-        <div class="container header-top">
+        <div class="header-top my-project">
             <div class="header-top-left">
                 <div class="header-text">
                     Hello Guest! Welcome to our online store
@@ -27,59 +30,223 @@
             </div>
         </div>
     </header>
-
-    <div class="container">
-        <div class="header-middle">
-            <div class="header-logo">
-                <img src="img/logo.svg">
-            </div>
-            <div class="header-search">
-                <div class="header-search-categories">
-                    <select name="" id="">
-                        <option value="">All categories</option>
-                        <option value="">Iphone</option>
-                        <option value="">SamSung</option>
-                        <option value="">Oppo</option>
-                    </select>
+    <div class="my-project">
+        <div class="mypage-header mb-3">
+            <div class="header-middle">
+                <div class="header-logo">
+                    <img src="img/logo.svg">
                 </div>
-                <div class="header-search-button">
-                    <input type="text" placeholder="Search products" class="search-products">
-                    <button type="button" class="search-btn">Search</button>
+                <div class="header-search">
+                    <div class="header-search-categories">
+                        <select name="" id="">
+                            <option value="">All categories</option>
+                            <option value="">Iphone</option>
+                            <option value="">SamSung</option>
+                            <option value="">Oppo</option>
+                        </select>
+                    </div>
+                    <div class="header-search-button">
+                        <input type="text" placeholder="Search products" class="search-products">
+                        <button type="button" class="search-btn">Search</button>
+                    </div>
                 </div>
-            </div>
-            <div class="header-icon">
-                <div class="user-icon"><i class='bx bx-user'></i></div>
-                <div class="user-icon"><i class='bx bx-heart'></i></div>
-                <div class="user-icon"><i class='bx bx-cart' ></i></div>
-                <div class="user-icon">$00.00</div>
+                <div class="header-icon">
+                    <div class="user-icon"><i class='bx bx-user'></i></div>
+                    <div class="user-icon"><i class='bx bx-heart'></i></div>
+                    <div class="user-icon"><i class='bx bx-cart' ></i></div>
+                    <div class="user-icon">$00.00</div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="desktop-menu">
-            <div class="vetical-menu">
-                All departments
+        <div class="mypage-menu mb-3">
+            <div class="desktop-menu">
+                <div class="vetical-menu">
+                    All departments
+                </div>
+                <div class="block-menu">
+                    <ul class="menu__item">
+                        <li class="menu__list"><a href="" class="menu__link">Home</a></li>
+                        <li class="menu__list"><a href="" class="menu__link">Features</a></li>
+                        <li class="menu__list"><a href="" class="menu__link">Shop</a></li>
+                        <li class="menu__list"><a href="" class="menu__link">New Arrivals</a></li>
+                        <li class="menu__list"><a href="" class="menu__link">Contact Us</a></li>
+                        <li class="menu__list"><a href="" class="menu__link">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="sale-info">
+                    <div class="sale-img">
+                        <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/mega-menu/icon/img-gift.png">
+                    </div>
+                   <div class="sale-off">
+                        <div class="special">Special</div>
+                        <div class="flash-sale">Flash Sale</div>
+                   </div>
+                </div>
             </div>
-            <div class="block-menu">
-                <ul class="menu__item">
-                    <li class="menu__list"><a href="" class="menu__link">Home</a></li>
-                    <li class="menu__list"><a href="" class="menu__link">Features</a></li>
-                    <li class="menu__list"><a href="" class="menu__link">Shop</a></li>
-                    <li class="menu__list"><a href="" class="menu__link">New Arrivals</a></li>
-                    <li class="menu__list"><a href="" class="menu__link">Contact Us</a></li>
-                    <li class="menu__list"><a href="" class="menu__link">About Us</a></li>
+        </div>
+        <div class="mypage-slide mb-3">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+    
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
                 </ul>
-            </div>
-            <div class="sale-info">
-                <div class="sale-img">
-                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/mega-menu/icon/img-gift.png">
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/slidershow/home-1/Index_v1_2.jpg" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/slidershow/home-1/Index_v1_1.jpg" width="1100" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/slidershow/home-1/Index_v1_3.jpg" width="1100" height="500">
+                  </div>
                 </div>
-               <div class="sale-off">
-                    <div class="special">Special</div>
-                    <div class="flash-sale">Flash Sale</div>
-               </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+        </div>
+        <div class="services-list mb-3">
+            <div class="home-services">
+                <div class="services-icon">
+                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/icon-image/icon_policy_1.png" alt="icon1" class="icon1">
+                </div>
+                <div class="services-text">
+                    <div class="free-ship">FREE SHIPPING & RETURN</div>
+                    <div class="free-ship-text">free shipping on orders over 49$</div>
+                </div>
+            </div>
+            <div class="home-services">
+                <div class="services-icon">
+                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/icon-image/icon_policy_2.png" alt="icon1" class="icon1">
+                </div>
+                <div class="services-text">
+                    <div class="free-ship">FREE SHIPPING & RETURN</div>
+                    <div class="free-ship-text">free shipping on orders over 49$</div>
+                </div>
+            </div>
+            <div class="home-services">
+                <div class="services-icon">
+                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/icon-image/icon_policy_3.png" alt="icon1" class="icon1">
+                </div>
+                <div class="services-text">
+                    <div class="free-ship">FREE SHIPPING & RETURN</div>
+                    <div class="free-ship-text">free shipping on orders over 49$</div>
+                </div>
+            </div>
+            <div class="home-services">
+                <div class="services-icon">
+                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/icon-image/icon_policy_4.png" alt="icon1" class="icon1">
+                </div>
+                <div class="services-text">
+                    <div class="free-ship">FREE SHIPPING & RETURN</div>
+                    <div class="free-ship-text">free shipping on orders over 49$</div>
+                </div>
             </div>
         </div>
+        <div class="banner-images">
+            <div class="img-item">
+                <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/banner/3.jpg" alt="icon1">
+            </div>
+            <div class="img-item">
+                <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/banner/3.jpg" alt="icon1">
+            </div>
+            <div class="img-item">
+                <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/banner/3.jpg" alt="icon1">
+            </div>
+            <div class="img-item">
+                <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/banner/3.jpg" alt="icon1">
+            </div>
+        </div>
+        <div class="block-filterproducts">
+            <div class="block-title">
+                <div class="block-title-left">Featured Brands</div>
+                <div class="block-title-right">
+                    <div class="back-icon"><span>&lt;</span></div>
+                    <div class="back-icon"><span>&gt;</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="block-content">
+            <div class="phone-img">
+                <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/wysiwyg/banner/Banner_2.jpg" alt="">
+            </div>
+            <div class="smart-phone-list">
+                <div class="smart-phone-img">
+                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/catalog/product/cache/477b3f12c4887abefc4e0996c3d6f9d7/g/o/google-pixel-5_1.jpg" alt="">
+                </div>
+                <div class="smart-phone-info">
+                    <div class="phone-title">
+                        Config product Apple 128GB - Black 
+                    </div>
+                    <div class="start-icon">
+                        * * * * *
+                    </div>
+                    <div class="phone-price">
+                        $2000.00
+                    </div>
+                </div>
+            </div>
+            <div class="smart-phone-list">
+                <div class="smart-phone-img">
+                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/catalog/product/cache/477b3f12c4887abefc4e0996c3d6f9d7/g/o/google-pixel-5_1.jpg" alt="">
+                </div>
+                <div class="smart-phone-info">
+                    <div class="phone-title">
+                        Config product Apple 128GB - Black 
+                    </div>
+                    <div class="start-icon">
+                        * * * * *
+                    </div>
+                    <div class="phone-price">
+                        $2000.00
+                    </div>
+                </div>
+            </div>
+            <div class="smart-phone-list">
+                <div class="smart-phone-img">
+                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/catalog/product/cache/477b3f12c4887abefc4e0996c3d6f9d7/g/o/google-pixel-5_1.jpg" alt="">
+                </div>
+                <div class="smart-phone-info">
+                    <div class="phone-title">
+                        Config product Apple 128GB - Black 
+                    </div>
+                    <div class="start-icon">
+                        * * * * *
+                    </div>
+                    <div class="phone-price">
+                        $2000.00
+                    </div>
+                </div>
+            </div>
+            <div class="smart-phone-list">
+                <div class="smart-phone-img">
+                    <img src="http://magento2.magentech.com/themes/sm_ego/pub/media/catalog/product/cache/477b3f12c4887abefc4e0996c3d6f9d7/g/o/google-pixel-5_1.jpg" alt="">
+                </div>
+                <div class="smart-phone-info">
+                    <div class="phone-title">
+                        Config product Apple 128GB - Black 
+                    </div>
+                    <div class="start-icon">
+                        * * * * *
+                    </div>
+                    <div class="phone-price">
+                        $2000.00
+                    </div>
+                </div>
+            </div>
+        </div>
+            
     </div>
 </body>
 </html>
